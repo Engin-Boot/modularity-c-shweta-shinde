@@ -9,7 +9,7 @@ namespace TelCo.ColorCoder
     partial class Program
     {
         
-        public static string ToString()
+        public override string ToString()
         {
             StringBuilder ColorCodeMannual=new StringBuilder();
             int num = 1;
